@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CellPhoneTest {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
 
         String testMan, testMod;

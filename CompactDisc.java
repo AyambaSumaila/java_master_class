@@ -2,6 +2,7 @@ import java.io.*;
 
 public class CompactDisc
 {
+	@SuppressWarnings("resource")
 	public static void main(String [] args) throws IOException
 	{
 		FileReader file = new FileReader("Classics.txt");

@@ -4,6 +4,7 @@ public class AccountTest {
     public static void main(String[] args) {
         BankAccount2 account;
         double balance, interestRate, pay, cashNeeded;
+        @SuppressWarnings("resource")
         Scanner userInput=new Scanner(System.in);
         System.out.println("What is your account's " + "starting balance?");
         balance = userInput.nextDouble();

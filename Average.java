@@ -8,6 +8,7 @@ public class Average
 	public Average ()
 	{
 		data = new int [5];
+		@SuppressWarnings("resource")
 		Scanner keyboard = new Scanner (System.in);
 		
 		for (int i = 0; i < data.length; i++)
